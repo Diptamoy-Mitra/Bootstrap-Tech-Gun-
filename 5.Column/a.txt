@@ -1,0 +1,21 @@
+Bootstrap flow :- 
+container > row >column > content(text and images)
+
+
+
+Breakpoints    Class infix        dimention       
+
+X-small           -               0-575px        [col-*]    (col-lg-12 col-lg-12 col-lg-12)
+Small             sm              576-767px      [col-sm-*]  (col-lg-12 col-lg-12 col-lg-12)
+Medium            md              768-991px      [col-md-*] (automatic div gulo 12 hoi jbe)((col-lg-12 col-lg-12 col-lg-12))
+Large             lg              992-1199px     [col-lg-*] (col-lg-4 col-lg-6 col-lg-2)
+Extra Large       xl              1200-1399px    [col-xl-*] (mera screen) (ekhaneo same apply hbe)
+Extra extra Large xxl             >=140px        [col-xxl-*]    (ekhaneo same  apply hbe)
+
+//ab khud decide karenge kaise width hoga uski (large ki ) uppar wali device and neeche wali device mai 
+X-small           -               0-575px        [col-*]  6,6,12  
+Small             sm              576-767px      [col-sm-*] 8,4,6 
+Medium            md              768-991px      [col-md-*]  (6,3,3)
+Large             lg              992-1199px     [col-lg-*]  4,6,2
+Extra Large       xl              1200-1399px    [col-xl-*] (mera screen) (5,5,2)(erom krte chaichi)
+Extra extra Large xxl             >=140px        [col-xxl-*]   

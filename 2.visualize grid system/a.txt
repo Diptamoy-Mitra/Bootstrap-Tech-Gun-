@@ -1,0 +1,44 @@
+
+//Grid system
+1.Breakpoint
+2.Container
+3.Row 
+4.Column
+
+//1.Breakpoint
+Breakpoints    Class infix        dimention
+
+X-small           -               0-575px
+Small             sm              576-767px
+Medium            md              768-991px
+Large             lg              992-1199px
+Extra Large       xl              1200-1399px
+Extra extra Large xxl             >=140px
+
+
+
+//2.Container 
+wrapper that contain the website ,
+website width depends on wrapper width 
+
+<div class="container"></div>
+
+//3.Row 
+Its divided into 12 column (max)
+row is a div which divided column 
+div with column class  must be in a row parent
+<div class="container">
+<div class="row"></div> 
+</div>
+
+
+//4. column=grid 
+
+column(clases)
+col-1 
+col-2
+col-3
+col-4
+col-6 
+col-8 and col-4
+col-12
