@@ -1,0 +1,6 @@
+X-small           -               0-575px        [col-*]              default 1,2,3
+Small             sm              576-767px      [col-sm-*]            default 1,2,3
+Medium            md              768-991px      [col-md-*]            default 1,2,3
+Large             lg              992-1199px     [col-lg-*]            3,1,2
+Extra Large       xl              1200-1399px    [col-xl-*]            3,1,2
+Extra extra Large xxl             >=140px        [col-xxl-*]           3,1,2
